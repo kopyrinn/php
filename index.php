@@ -1,26 +1,18 @@
-<meta charset="utf-8">
-
-<h1>HELLO</h1>
-
-<form action="USA.php" method="GET">
-	<input type="" name="where"> <!--От кого-->
-	<input type="" name="from"> <!--Кому-->
-	<textarea></textarea>
-	<button>Отправить</button>
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	
 
 
-
-<?php
-	echo $_GET["where"];
-?>
-
-
+	<form action="usa.php" method="GET">
+		<input type="" name="age">
+		<button>Отправить</button>
+	</form>
 
 
-
-
-
-<?php
-	echo $_GET["from"];
-?>
+</body>
+</html>
